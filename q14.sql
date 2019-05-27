@@ -5,4 +5,7 @@
 ## a 400.
 ##
 
-
+SELECT K0, ROUND(avg(c12), 6) AS 'avg(c12)'
+FROM tbl1
+WHERE c13 > 400
+GROUP BY K0;

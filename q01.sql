@@ -3,3 +3,5 @@
 ## de la tabla tbl1
 ## 
 
+SELECT ROUND(SUM(c12),2) AS 'SUM(c12)'
+FROM tbl1;

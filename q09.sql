@@ -4,4 +4,7 @@
 ## tabla tbl2.
 ##
 
-
+SELECT *
+FROM tbl2
+ORDER BY c21 ASC
+LIMIT 1;

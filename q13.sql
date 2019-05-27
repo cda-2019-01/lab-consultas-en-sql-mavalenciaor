@@ -4,4 +4,6 @@
 ## en la tabla tbl1.
 ##
 
-
+SELECT K0, MAX(c12), ROUND(min(c12), 2) AS "min(C12)"
+FROM tbl1
+GROUP BY k0;

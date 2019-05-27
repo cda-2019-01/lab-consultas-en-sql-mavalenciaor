@@ -3,4 +3,7 @@
 ## registros de la tabla tbl1 ordenados por fecha
 ## 
 
-
+SELECT *
+FROM tbl1
+ORDER BY c14 ASC
+LIMIT 5;
